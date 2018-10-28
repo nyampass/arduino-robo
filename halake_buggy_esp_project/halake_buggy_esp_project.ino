@@ -2,13 +2,11 @@
 #include <ArduinoESPAT.h>
 #include <Wire.h>
 
-#include "setting.h"
-
 #define CONTROLL1 6
 #define DEFAULTSPEED 255
 
 SoftwareSerial softSerial(5, 4); //rx , tx
-ESPAT espat(SSID, PASS);
+ESPAT espat(xxxx, xxxx);
 ST7032 lcd;
 
 boolean status1 = HIGH;
