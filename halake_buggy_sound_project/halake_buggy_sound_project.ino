@@ -35,7 +35,7 @@ void setup() {
   delay(500);
 
   Serial.println("設定完了");
-  softSerial.println("setteikannryou\r");
+  softSerial.println("setteikannryou");
 }
 
 void loop() {
@@ -48,3 +48,4 @@ void loop() {
     }
   }
 }
+g
